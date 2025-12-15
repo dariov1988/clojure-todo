@@ -1,0 +1,34 @@
+# Clojure
+target/
+*.class
+*.jar
+*.war
+*.nar
+.lein-repl-history
+.lein-failures
+.nrepl-port
+.cpcache/
+
+# Database
+*.db
+*.db-journal
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.svelte-kit/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+.clj-kondo/
+.lsp/
+.cursor/
